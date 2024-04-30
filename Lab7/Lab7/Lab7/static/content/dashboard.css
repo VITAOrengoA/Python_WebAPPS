@@ -1,0 +1,334 @@
+/*PIMARY 1*/
+/* Style for the dropdown menu */
+
+body {
+    font-family: "Source Sans Pro", Helvetica, Arial, _sans-serif;
+    font-weight: bold;
+}
+
+#wrapper {
+    float: left;
+    height: 1000px;
+}
+
+#header {
+    float: left;
+    height: 1000px;
+    width: 100%;
+}
+
+.dropdown:hover {
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.discover-link:hover {
+    background: #fcb900;
+    #395066 color:white;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute;
+    background-color: #fff; /* Background color of the dropdown menu */
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for visual effect */
+    z-index: 5; /* Ensure the dropdown menu appears above other elements */
+}
+
+    /* Style for the dropdown menu items */
+    .dropdown-menu li {
+        list-style-type: none; /* Remove bullet points */
+        margin-bottom: 5px; /* Add spacing between items */
+    }
+
+        /* Style for the dropdown menu links */
+        .dropdown-menu li a {
+            text-decoration: none; /* Remove underline */
+            color: white; /* Text color */
+            display: block; /* Make the links display as block elements */
+            padding: 8px; /* Add padding for better spacing */
+            margin-left: 7px;
+        }
+
+            /* Style for the dropdown menu links on hover */
+            .dropdown-menu li a:hover {
+                background-color: #fcb900; /* Change background color on hover */
+            }
+
+/* Show the dropdown menu when its parent li is hovered over */
+.dropdown:hover .dropdown-menu {
+    display: contents;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #e1e1e1;
+}
+
+.primary-logo {
+    height: 50px;
+    width: 80px;
+}
+
+.chat-bot-nav ul {
+    text-decoration: none;
+    font-family: 'Sans Serif Collection';
+    font-size: 1em;
+    padding: 0;
+    margin-top: 100px;
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: "Source Sans Pro", Helvetica, Arial, _sans-serif;
+    font-weight: bold;
+    position: fixed;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 2px;
+    display: block;
+    text-align: left;
+}
+
+li a {
+    color: white;
+    background-image: linear-gradient(#fcb900, #fcb900);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+    li a:hover,
+    li a:focus,
+    li a:active {
+        text-decoration: none;
+        background-size: 100%;
+        color: black;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+
+.home-link {
+    text-decoration: none;
+    position: relative;
+    z-index: 5;
+    display: block;
+    padding: 0px;
+    height: 60px;
+    width: 100px;
+    vertical-align: top;
+    background-color: #f1b825;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
+.chat-bot-nav li {
+    float: unset;
+    text-decoration: none;
+    width: 200px;
+    background: black;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+#div-1 {
+    position: relative;
+    background: #ffffff;
+    height: 800px;
+    width: 35%;
+    border: black solid 1px;
+    margin: 10px;
+    left: 13%;
+    padding: 20px;
+    padding-right: 50px;
+    z-index: -5;
+    float: left;
+}
+
+#div-2 {
+    height: 657px;
+    width: 35%;
+    border: black solid 1px;
+    margin: 10px;
+    margin-left: 600px;
+    padding: 20px;
+    z-index: -5;
+    float: left;
+    background: white url("/static/images/Language-Translator.jpg") no-repeat;
+    background-size: contain;
+}
+
+#div-1, #div-2 {
+    margin-top: 4%;
+}
+
+#chatbot-button, .div-1-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Sans Serif Collection';
+    font-size: 50px;
+}
+
+#chatbot-button {
+    height: 100%;
+    width: 100%;
+    display: inline;
+    background: white url("test.jpg") no-repeat;
+    background-size: cover;
+}
+
+    #chatbot-button:hover {
+        opacity: 50%;
+    }
+
+#button-1 {
+    height: 100%;
+    width: 100%;
+    display: inline;
+    background: white url("college-grad.jpg") no-repeat;
+    background-size: cover;
+}
+
+#div-nav-top {
+    background: #13366d;
+    height: 60px;
+    width: 99.5%;
+    margin: 7px;
+    padding: 0;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 1px;
+    font-family: sans-serif;
+    display: inline-block;
+    border-radius: -21px;
+    color: white;
+}
+
+#log-out {
+    color: white;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    padding: 0;
+}
+
+#chatbot-button, .div-2-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Sans Serif Collection';
+    font-size: 50px;
+}
+
+#button-1:hover {
+    opacity: 50%;
+}
+
+#iframe-video {
+    height: 100%;
+    width: 100%;
+}
+
+#google-cal {
+    height: 100%;
+    width: 100%;
+}
+
+#footer-bottom {
+    height: 300px;
+    width: 100%;
+    background: black;
+    color: white;
+    border: black solid 2px;
+    z-index: -5;
+    float: left;
+    display:;
+}
+
+.footer-social-links .social a {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+}
+
+.submit-text-button {
+    border: none;
+    padding: 15px 70px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    border-radius: 8px;
+    background: #13366d;
+    color: white;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+    .submit-text-button:hover {
+        color: white;
+        background: #a9200c;
+    }
+.copyright {
+    margin-bottom: 10px;
+}
+
+.user-messsage-input {
+    padding: 20px;
+    height: 200px;
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.user-file {
+    padding: 20px;
+    height: 50px;
+    width: 50%;
+}
+.user-message-translated-output{
+    height: auto;
+    width:100%;
+    border:solid black 3px;
+    font-size:2rem;
+    color:black;
+    font-family:'Sans Serif Collection';
+}
+@media(max-width:768) {
+    .home-link {
+        text-decoration: none;
+        position: relative;
+        z-index: 5;
+        display: block;
+        padding: 0px;
+        height: 65px;
+        width: 105px;
+        vertical-align: top;
+        background-color: #f1b825;
+        border-radius: 10px;
+        border: black solid 2px;
+    }
+
+    .primary-logo {
+        height: 65px;
+    }
+
+    li a {
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+        margin-left: 5px;
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+}
