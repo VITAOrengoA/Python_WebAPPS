@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\static\\content\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\static\\content\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\self-service-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\self-service-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\static\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\static\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\events-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\events-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\contact-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\contact-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\successfull-registration.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\successfull-registration.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\blackboard-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\blackboard-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\map-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\map-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\news-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\news-temp.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0092D110-A96A-458D-92D3-A4499698A4CA}|Lab7\\Lab7.pyproj|solutionrelative:Lab7\\Lab7\\templates\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "successfull-registration.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\successfull-registration.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\successfull-registration.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\successfull-registration.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\successfull-registration.html",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\login.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\login.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\login.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\login.html",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "blackboard-temp.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\blackboard-temp.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\blackboard-temp.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\blackboard-temp.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\blackboard-temp.html",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "map-temp.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\map-temp.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\map-temp.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\map-temp.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\map-temp.html",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:02.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\static\\content\\dashboard.css",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\static\\content\\dashboard.css",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\static\\content\\dashboard.css",
+              "RelativeToolTip": "Lab7\\Lab7\\static\\content\\dashboard.css",
+              "ViewState": "AQIAADYHAAAAAAAAAAAYwFsHAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T23:15:01.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "self-service-temp.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\self-service-temp.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\self-service-temp.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\self-service-temp.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\self-service-temp.html",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\static\\content\\site.css",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\static\\content\\site.css",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\static\\content\\site.css",
+              "RelativeToolTip": "Lab7\\Lab7\\static\\content\\site.css",
+              "ViewState": "AQIAAK8EAAAAAAAAAAAYwNQEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T23:15:01.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "news-temp.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\news-temp.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\news-temp.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\news-temp.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\news-temp.html",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "register.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\register.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\register.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\register.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\register.html",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAIUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "views.py",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\views.py",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\views.py",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\views.py",
+              "RelativeToolTip": "Lab7\\Lab7\\views.py",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAWwLwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-05T23:15:01.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dashboard.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\dashboard.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\dashboard.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\dashboard.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\dashboard.html",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAOgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "layout.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\layout.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\layout.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\layout.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\layout.html",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "contact-temp.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\contact-temp.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\contact-temp.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\contact-temp.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\contact-temp.html",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAAOkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "events-temp.html",
+              "DocumentMoniker": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\events-temp.html",
+              "RelativeDocumentMoniker": "Lab7\\Lab7\\templates\\events-temp.html",
+              "ToolTip": "E:\\M7Lab_AnthonyOrengo\\M7Lab_AnthonyOrengo\\Lab7\\Lab7\\templates\\events-temp.html",
+              "RelativeToolTip": "Lab7\\Lab7\\templates\\events-temp.html",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-05T23:15:01.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
