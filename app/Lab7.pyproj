@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>0092d110-a96a-458d-92d3-a4499698a4ca</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>Lab7</Name>
+    <RootNamespace>Lab7</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\forms.py" />
+    <Compile Include="runserver.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="app\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\static\" />
+    <Folder Include="app\static\content\" />
+    <Folder Include="app\static\fonts\" />
+    <Folder Include="app\static\images\" />
+    <Folder Include="app\static\Bootstrap\" />
+    <Folder Include="app\static\scripts\" />
+    <Folder Include="app\static\templates\" />
+    <Folder Include="app\static\templates\Extra-Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\static\content\dashboard.css" />
+    <Content Include="app\static\images\Language-Translator-2.png" />
+    <Content Include="app\static\images\Language Translator-1.jpg" />
+    <Content Include="app\static\images\Language-Translator.png" />
+    <Content Include="app\static\images\Language-Translator.jpg" />
+    <Content Include="app\static\images\translate-image-1.png" />
+    <Content Include="app\static\images\translate-image-2.png" />
+    <Content Include="app\static\images\translate-image-3.png" />
+    <Content Include="app\static\scripts\db.php" />
+    <Content Include="app\static\scripts\form-validation.js" />
+    <Content Include="app\static\templates\blackboard-temp.html" />
+    <Content Include="app\static\templates\contact-temp.html" />
+    <Content Include="app\static\templates\dashboard.html" />
+    <Content Include="app\static\templates\events-temp.html" />
+    <Content Include="app\static\templates\login.html" />
+    <Content Include="app\static\templates\map-temp.html" />
+    <Content Include="app\static\templates\news-temp.html" />
+    <Content Include="app\static\templates\register.html" />
+    <Content Include="app\static\templates\self-service-temp.html" />
+    <Content Include="app\static\templates\successfull-registration.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="app\static\Bootstrap\bootstrap.css" />
+    <Content Include="app\static\Bootstrap\bootstrap.min.css" />
+    <Content Include="app\static\content\site.css" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="app\static\scripts\bootstrap.js" />
+    <Content Include="app\static\scripts\bootstrap.min.js" />
+    <Content Include="app\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="app\static\scripts\jquery-1.10.2.js" />
+    <Content Include="app\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="app\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="app\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="app\static\scripts\jquery.validate.js" />
+    <Content Include="app\static\scripts\jquery.validate.min.js" />
+    <Content Include="app\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="app\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="app\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="app\static\scripts\respond.js" />
+    <Content Include="app\static\scripts\respond.min.js" />
+    <Content Include="app\static\scripts\_references.js" />
+    <Content Include="app\static\templates\about.html" />
+    <Content Include="app\static\templates\contact.html" />
+    <Content Include="app\static\templates\index.html" />
+    <Content Include="app\static\templates\layout.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

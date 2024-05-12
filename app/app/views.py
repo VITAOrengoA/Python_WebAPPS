@@ -8,7 +8,7 @@ from urllib import response
 from flask import Flask, render_template, render_template_string, request, session
 from flask_session import Session
 from flask.templating import _render
-from Lab7 import app
+from app import app
 import nltk 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
