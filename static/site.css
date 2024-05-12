@@ -1,0 +1,1236 @@
+.login-header {
+    text-align: center;
+    font-family: sans sarif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+label {
+    padding: 20px;
+}
+
+.iframe-div {
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+    border-radius: 5px;
+    top: 10%;
+    left: 25%;
+    font-size: 3vw;
+    background: #13366d;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#list-contacts-div1 {
+    z-index: -1;
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+    width: 50%;
+}
+
+#div-image-home {
+    height: 1355px;
+    width: 100%;
+    background: white url("/static/images/Language-Translator.png") no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    margin-left: -7px;
+}
+
+#div-succ-reg {
+    height: 1355px;
+    width: 100%;
+    background: white url("/static/images/Language-Translator.png") no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    margin-left: -7px;
+}
+
+.succ-reg-title {
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 350px;
+    left: 11%;
+    display: block;
+    font-size: 3vw;
+    background: #13366d;
+    color: #fff;
+    margin-left: 500px;
+    /*! width: 35%; */
+}
+
+.succ-reg-link {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background: blue;
+    height: 20px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#form-div {
+    position: fixed;
+    height: 450px;
+    width: 425px;
+    z-index: 0;
+    background: #ACB329;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: inset white 7px;
+    display: flex;
+    overflow: hidden;
+    float: left;
+}
+
+    #form-div:hover {
+        border: groove whitesmoke 7px;
+    }
+
+#form-reg-div {
+    position: fixed;
+    height: 775px;
+    width: 425px;
+    z-index: 0;
+    background: #ACB329;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: inset white 7px;
+    display: flex;
+    overflow: hidden;
+    float: left;
+}
+
+    #form-reg-div:hover {
+        border: groove whitesmoke 7px;
+    }
+
+.name-input, .pass-input {
+    height: auto;
+    text-align: center;
+    width: 87%;
+    margin: 20px;
+    padding-top: 10px;
+    z-index: 5;
+}
+
+#login-form {
+    margin: 30px;
+    padding: 0;
+    position: absolute;
+}
+
+#div-login {
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    margin-left: -7px;
+}
+
+.video-container {
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    left: 12%;
+    top: 5%;
+    z-index: -1;
+}
+
+.video-frame {
+    position: absolute;
+    height: 158%;
+    width: 70%;
+    left: 13%;
+    top: 5%;
+    z-index: -1;
+}
+
+.footer-video {
+    background: #13366d;
+    height: 400px;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 0;
+    float: left;
+    border: black groove 3px;
+}
+
+.video-frame-footer {
+    height: 100%;
+    width: 100%;
+}
+
+.submit-login-button {
+    border: none;
+    padding: 15px 70px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 88px;
+    border-radius: 8px;
+    background: #13366d;
+    color: white;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+
+    .submit-login-button:hover {
+        color: black;
+        background: white;
+    }
+
+.reg-link, .login-link {
+    text-decoration: none;
+    color: blue;
+}
+
+    .reg-link:hover, .login-link:hover {
+        text-decoration: none;
+        color: #fff
+    }
+
+@media(max-width:800px) {
+    #wrapper {
+        height: 700px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #form-div {
+        position: absolute;
+        height: 500px;
+        width: 378px;
+        z-index: -1;
+        background: #ACB329;
+        top: 99%;
+        left: 51%;
+        border: inset white 7px;
+        /*! display: flex; */
+        /*! overflow: hidden; */
+        float: left;
+        padding-bottom: 0px;
+        /*! margin-bottom: 59px; */
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #form-reg-div {
+        position: absolute;
+        height: 775px;
+        width: 425px;
+        z-index: 0;
+        background: #ACB329;
+        top: 55%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        margin-top: 10px;
+        margin-left: 0px;
+        float: left;
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .video-container {
+        height: 600px;
+        width: 800px;
+        margin-top: 500px;
+        display: none;
+    }
+
+    .video-frame {
+        height: 600px;
+        width: 800px;
+        margin-top: 0px;
+        margin-left: -430px;
+        /*! transform: none; */
+        display:;
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 600px;
+        width: 800px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-image-home {
+        height: 600px;
+        width: 800px;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 770px;
+        width: 584px;
+        margin-top: 0;
+        margin-left: 20px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-succ-reg {
+        height: 968px;
+        width: 211%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+}
+
+@media(min-width: 900px) and (max-width:1440px) {
+    #wrapper {
+        height: 700px;
+    }
+
+    .succ-reg-title {
+        position: absolute;
+        border-radius: 5px;
+        margin-top: 350px;
+        left: 0%;
+        display: inline;
+        font-size: 3vw;
+        background: #13366d;
+        color: #fff;
+        margin-left: 500px;
+        width: 47%;
+    }
+
+    #form-div {
+        position: absolute;
+        height: 400px;
+        width: 325px;
+        z-index: -1;
+        background: #ACB329;
+        top: 45%;
+        left: 50%;
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        margin-top: 10px;
+        margin-left: 0px;
+        float: left;
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .video-container {
+        height: 40%;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .video-frame {
+        /*! height: 42%; */
+        /*! width: 45%; */
+        /*! margin-top: -30px; */
+        /*! margin-left: 100px; */
+        /*! transform: translate(50%, -80%); */
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 400px;
+        width: 32%;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #div-image-home {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 600px;
+        width: 62%;
+        margin-top: 42px;
+        margin-left: 0;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #form-reg-div {
+        position: absolute;
+        height: 49vw;
+        width: 29vw;
+        z-index: 0;
+        background: #ACB329;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    input {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        word-wrap: normal;
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: robot;
+    }
+
+    .submit-login-button {
+        border: none;
+        padding: 5px 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 88px;
+        border-radius: 8px;
+        background: #13366d;
+        color: white;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+
+    #div-succ-reg {
+        height: 89%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+}
+
+@media(min-width: 801px) and (max-width:1280px) {
+    #wrapper {
+        height: 700px;
+    }
+
+    .succ-reg-title {
+        position: absolute;
+        border-radius: 5px;
+        margin-top: 350px;
+        left: 0%;
+        display: inline;
+        font-size: 3vw;
+        background: #13366d;
+        color: #fff;
+        margin-left: 500px;
+        width: 47%;
+    }
+
+    #form-div {
+        position: absolute;
+        height: 400px;
+        width: 325px;
+        z-index: -1;
+        background: #ACB329;
+        top: 45%;
+        left: 50%;
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        margin-top: 10px;
+        margin-left: 0px;
+        float: left;
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .video-container {
+        height: 40%;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 400px;
+        width: 32%;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #div-image-home {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 566px;
+        width: 66%;
+        margin-top: 29px;
+        margin-left: 0px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #form-reg-div {
+        position: absolute;
+        height: 53vw;
+        width: 33vw;
+        z-index: 0;
+        background: #ACB329;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    input {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        word-wrap: normal;
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: robot;
+    }
+
+    .submit-login-button {
+        border: none;
+        padding: 13px 60px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 88px;
+        border-radius: 8px;
+        background: #13366d;
+        color: white;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+
+    #div-succ-reg {
+        height: 100%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+}
+
+
+@media(min-width: 1921px) and (max-width:2560px) {
+    #wrapper {
+        /*! height: 1000px; */
+    }
+
+    #form-div {
+        position: absolute;
+        height: 450px;
+        width: 425px;
+        z-index: -1;
+        background: #ACB329;
+        top: 45%;
+        left: 50%;
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        margin-top: 0px;
+        margin-left: 100px;
+        float: left;
+        width: 50%;
+        font-size: 1vw;
+        padding: 128px;
+        height: 1400px;
+    }
+
+    .video-container {
+        height: 80%;
+        width: 80%;
+        top: 5%;
+    }
+
+    .video-frame {
+        height: 80%;
+        width: 80%;
+        top: 5%;
+        ;
+        margin-left: -230px
+        /*! transform: translate(50%, -80%); */
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 400px;
+        width: 29%;
+        margin-top: 200px;
+        margin-left: 5px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #div-image-home {
+        height: 1440px;
+        ;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 80%;
+        width: 70%;
+        margin-top: -25px;
+        margin-left: -300px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #form-reg-div {
+        position: absolute;
+        height: 30vw;
+        width: 17vw;
+        z-index: 0;
+        background: #ACB329;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    input {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        word-wrap: normal;
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: robot;
+        padding: 15px;
+    }
+
+    .submit-login-button {
+        border: none;
+        padding: 15px 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 88px;
+        border-radius: 8px;
+        background: #13366d;
+        color: white;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+
+    #div-succ-reg {
+        height: 97%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -8px;
+        top: 6%;
+    }
+}
+
+@media(min-width: 2561px) and (max-width:3840px) {
+    #wrapper {
+        /*! height: 1000px; */
+    }
+
+    #form-div {
+        position: absolute;
+        height: 450px;
+        width: 400px;
+        z-index: -1;
+        background: #ACB329;
+        top: 45%;
+        left: 50%;
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        margin-top: 0px;
+        margin-left: 100px;
+        float: left;
+        width: 50%;
+        font-size: 1vw;
+        padding: 128px;
+        height: 1400px;
+    }
+
+    .video-container {
+        height: 113%;
+        width: 62%;
+        top: 14%;
+    }
+
+    .video-frame {
+        height: 80%;
+        width: 80%;
+        top: 5%;
+        margin-left: 50px
+        /*! transform: translate(50%, -80%); */
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 400px;
+        width: 29%;
+        margin-top: 550px;
+        margin-left: 5px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #div-image-home {
+        height: 1440px;
+        ;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 770px;
+        width: 55%;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #form-reg-div {
+        position: absolute;
+        height: 30vw;
+        width: 17vw;
+        z-index: 0;
+        background: #ACB329;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    input {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        word-wrap: normal;
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: robot;
+        padding: 15px;
+    }
+
+    .submit-login-button {
+        border: none;
+        padding: 15px 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 88px;
+        border-radius: 8px;
+        background: #13366d;
+        color: white;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+
+    #div-succ-reg {
+        height: 111%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -8px;
+        top: 6%;
+    }
+}
+/*Cellphones Max 400px*/
+
+@media (min-width: 300px ) and (max-width:450px) {
+
+    #wrapper {
+        /*! height: 1000px; */
+    }
+
+    #form-div {
+        position: relative;
+        height: 475px;
+        width: 400px;
+        z-index: -1;
+        background: #ACB329;
+        left: 150%;
+        top: -329px;
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        margin-top: 0px;
+        margin-left: 100px;
+        float: left;
+        width: 50%;
+        font-size: 1vw;
+        padding: 128px;
+        height: 1400px;
+    }
+
+    .video-container {
+        height: 113%;
+        width: 62%;
+        top: 14%;
+    }
+
+    .video-frame {
+        height: 80%;
+        width: 80%;
+        top: 5%;
+        margin-left: 50px
+        /*! transform: translate(50%, -80%); */
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 560px;
+        width: 1000px;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #div-image-home {
+        height: 656px;
+        ;
+        width: 1070px;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -6px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 770px;
+        width: 100%;
+        margin-top: 420px;
+        margin-left: -120px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #form-reg-div {
+        position: absolute;
+        height: 30vw;
+        width: 17vw;
+        z-index: 0;
+        background: #ACB329;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    input {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        word-wrap: normal;
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: robot;
+        padding: 15px;
+    }
+
+    .submit-login-button {
+        border: none;
+        padding: 15px 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 88px;
+        border-radius: 8px;
+        background: #13366d;
+        color: white;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+
+    #div-succ-reg {
+        height: 100%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -8px;
+        top: 6%;
+    }
+}
+/*My LAPTOP*/
+@media (min-width: 1080px ) and (max-width:1920px) {
+
+    #wrapper {
+        height: 700px;
+    }
+
+    .succ-reg-title {
+        position: absolute;
+        border-radius: 5px;
+        margin-top: 350px;
+        left: 0%;
+        display: inline;
+        font-size: 3vw;
+        background: #13366d;
+        color: #fff;
+        margin-left: 500px;
+        width: 47%;
+    }
+
+    #form-div {
+        position: absolute;
+        height: 400px;
+        width: 325px;
+        z-index: -1;
+        background: #ACB329;
+        top: 45%;
+        left: 50%;
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+        #form-div:hover {
+            border: groove whitesmoke 7px;
+        }
+
+    #list-contacts-div1, #list-contacts-div2, #list-contacts-div3 {
+        z-index: -1;
+        float: left;
+        width: auto;
+        font-size: 1vw;
+    }
+
+    .video-container {
+        height: 40%;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .video-frame {
+        /*! height: 42%; */
+        /*! width: 45%; */
+        /*! margin-top: -30px; */
+        /*! margin-left: 100px; */
+        /*! transform: translate(50%, -80%); */
+    }
+
+    .footer-video {
+        background: #13366d;
+        height: 400px;
+        width: 31%;
+        margin-top: 500px;
+        margin-left: 5px;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #div-login {
+        height: 800px;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    #div-image-home {
+        height: 100%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+
+    .iframe-div {
+        background: #13366d;
+        height: 600px;
+        width: 62%;
+        margin-top: 42px;
+        margin-left: 0;
+        padding: 0;
+        float: left;
+        border: black groove 3px;
+    }
+
+    #form-reg-div {
+        position: absolute;
+        height: 36vw;
+        width: 22vw;
+        z-index: 0;
+        background: #ACB329;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: inset white 7px;
+        display: flex;
+        overflow: hidden;
+        float: left;
+    }
+
+    input {
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        word-wrap: normal;
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: robot;
+    }
+
+    .submit-login-button {
+        border: none;
+        padding: 15px 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 88px;
+        border-radius: 8px;
+        background: #13366d;
+        color: white;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+
+    #div-succ-reg {
+        height: 100%;
+        width: 100%;
+        background: white url("/static/images/Language-Translator.png") no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-left: -7px;
+    }
+}
