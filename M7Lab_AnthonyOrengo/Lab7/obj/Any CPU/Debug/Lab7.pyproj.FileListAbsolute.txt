@@ -1,5 +1,0 @@
-E:\Lab7\Lab7\obj\Any CPU\Debug\Lab7.pyproj.CoreCompileInputs.cache
-C:\Users\oreng\OneDrive\Desktop\Lab7\Lab7\obj\Any CPU\Debug\Lab7.pyproj.CoreCompileInputs.cache
-C:\Users\oreng\OneDrive\Desktop\Lab7_AnthonyOrengo\Lab7\obj\Any CPU\Debug\Lab7.pyproj.CoreCompileInputs.cache
-C:\Users\oreng\OneDrive\Desktop\Final Web Folder\Lab7_AnthonyOrengo\Lab7\obj\Any CPU\Debug\Lab7.pyproj.CoreCompileInputs.cache
-E:\M7Lab_AnthonyOrengo\M7Lab_AnthonyOrengo\Lab7\obj\Any CPU\Debug\Lab7.pyproj.CoreCompileInputs.cache
