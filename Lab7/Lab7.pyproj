@@ -42,8 +42,8 @@
     <Folder Include="Lab7\static\images\" />
     <Folder Include="Lab7\static\Bootstrap\" />
     <Folder Include="Lab7\static\scripts\" />
-    <Folder Include="Lab7\templates\" />
-    <Folder Include="Lab7\templates\Extra-Templates\" />
+    <Folder Include="Lab7\static\templates\" />
+    <Folder Include="Lab7\static\templates\Extra-Templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lab7\static\content\dashboard.css" />
@@ -56,16 +56,16 @@
     <Content Include="Lab7\static\images\translate-image-3.png" />
     <Content Include="Lab7\static\scripts\db.php" />
     <Content Include="Lab7\static\scripts\form-validation.js" />
-    <Content Include="Lab7\templates\blackboard-temp.html" />
-    <Content Include="Lab7\templates\contact-temp.html" />
-    <Content Include="Lab7\templates\dashboard.html" />
-    <Content Include="Lab7\templates\events-temp.html" />
-    <Content Include="Lab7\templates\login.html" />
-    <Content Include="Lab7\templates\map-temp.html" />
-    <Content Include="Lab7\templates\news-temp.html" />
-    <Content Include="Lab7\templates\register.html" />
-    <Content Include="Lab7\templates\self-service-temp.html" />
-    <Content Include="Lab7\templates\successfull-registration.html" />
+    <Content Include="Lab7\static\templates\blackboard-temp.html" />
+    <Content Include="Lab7\static\templates\contact-temp.html" />
+    <Content Include="Lab7\static\templates\dashboard.html" />
+    <Content Include="Lab7\static\templates\events-temp.html" />
+    <Content Include="Lab7\static\templates\login.html" />
+    <Content Include="Lab7\static\templates\map-temp.html" />
+    <Content Include="Lab7\static\templates\news-temp.html" />
+    <Content Include="Lab7\static\templates\register.html" />
+    <Content Include="Lab7\static\templates\self-service-temp.html" />
+    <Content Include="Lab7\static\templates\successfull-registration.html" />
     <Content Include="requirements.txt" />
     <Content Include="Lab7\static\Bootstrap\bootstrap.css" />
     <Content Include="Lab7\static\Bootstrap\bootstrap.min.css" />
@@ -89,10 +89,10 @@
     <Content Include="Lab7\static\scripts\respond.js" />
     <Content Include="Lab7\static\scripts\respond.min.js" />
     <Content Include="Lab7\static\scripts\_references.js" />
-    <Content Include="Lab7\templates\about.html" />
-    <Content Include="Lab7\templates\contact.html" />
-    <Content Include="Lab7\templates\index.html" />
-    <Content Include="Lab7\templates\layout.html" />
+    <Content Include="Lab7\static\templates\about.html" />
+    <Content Include="Lab7\static\templates\contact.html" />
+    <Content Include="Lab7\static\templates\index.html" />
+    <Content Include="Lab7\static\templates\layout.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
