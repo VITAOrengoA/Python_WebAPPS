@@ -1,0 +1,230 @@
+.footer-bottom {
+    height: auto;
+    width: 100%;
+    background: #000;
+    color: white;
+    display: inline-block;
+}
+
+.footer-bottom-2 {
+    height: fit-content;
+    width: 100%;
+    background: #000;
+    color: white;
+    display: inline-block;
+    margin-top: 1px;
+    padding-top: 25px;
+}
+
+.footer-div-1 {
+    height: 300px;
+    width: 43%;
+    display: inline-block;
+    float: left;
+    left: 20%;
+    position: relative;
+}
+
+.footer-div-1-img {
+    background-image: url("images/ftcc-crest-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    float: left;
+}
+
+.footer-div-1-address {
+    height: 300px;
+    width: 300px;
+    display: block;
+    /*! float: left; */
+    margin: 0;
+    padding: 0;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.footer-div-2, .footer-div-3, .footer-div-4 {
+    height: 100%;
+    width: 250px;
+    margin: 0;
+    /* top: 0; */
+    padding: 25px;
+    float: inline-start;
+    display: inline-block;
+}
+
+.footer-div-5 {
+    height: auto;
+    width: 56%;
+    margin-left: 0;
+    top: 0;
+    padding: 0;
+    /*! float: inline-start; */
+    display: inline-block;
+}
+
+ul, li, a {
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding: 3px;
+}
+
+.copyright-block {
+}
+
+.social-icons {
+    display: inline-flex;
+    float: right
+}
+
+h4 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+.address-title-block {
+    margin-top: 25px;
+    padding: 0;
+    margin: -15px;
+    margin-left: -28px;
+}
+
+.address-title-block-a {
+    margin-top: 25px;
+    padding: 0;
+    margin: 20px;
+    margin-left: 76px;
+}
+
+.eo-title-block {
+    margin-top: 332px;
+    margin-left: 8px;
+}
+
+@media (max-width:768px) {
+    h4 {
+        text-align: left;
+        margin: 0px;
+        padding: 0;
+        left: 0;
+    }
+
+    .footer-bottom {
+        height: fit-content;
+        width: 100%;
+        background: #000;
+        color: white;
+        display: inline-block;
+    }
+
+    .footer-bottom-2 {
+        height: fit-content;
+        width: 100%;
+        background: #000;
+        color: white;
+        display: inline-block;
+        margin-top: 1px;
+    }
+
+    .footer-div-1 {
+        height: 300px;
+        width: 43%;
+        display: inline-block;
+        float: left;
+        left: 15%;
+        position: relative;
+        margin-bottom: 200px;
+    }
+
+    .footer-div-1-img {
+        background-image: url("images/ftcc-crest-logo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 300px;
+        display: inline-block;
+        float: left;
+    }
+
+    .footer-div-1-address {
+        height: 300px;
+        width: 300px;
+        display: block;
+        /*! float: left; */
+        margin: 0;
+        padding: 0;
+        margin-left: 27px;
+        margin-top: 10px;
+    }
+
+    .footer-div-2, .footer-div-3, .footer-div-4 {
+        height: 100%;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .footer-div-5 {
+        height: auto;
+        width: 56%;
+        margin-left: 120px;
+        top: 0;
+        padding: 0;
+        /*! float: inline-start; */
+        display: inline-block;
+    }
+
+    ul, li, a {
+        color: #fff;
+        margin-left: 0px;
+        margin-right: 0;
+        text-decoration: none;
+        list-style: none;
+        text-align: left;
+        padding: 3px;
+    }
+
+    hr {
+        width: 50%;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .copyright-block {
+    }
+
+    .social-icons {
+        display: inline-flex;
+        float: right margin:0;
+    }
+
+    h4 {
+    }
+
+    .address-title-block {
+        margin-top: 25px;
+        padding: 0;
+        margin: -15px;
+        margin-left: -28px;
+    }
+
+    .address-title-block-a {
+        margin-top: 25px;
+        padding: 0;
+        margin: 20px;
+        margin-left: 76px;
+    }
+
+    .eo-title-block {
+        margin-top: 332px;
+        margin-left: 8px;
+    }
+}

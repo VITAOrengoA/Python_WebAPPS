@@ -1,0 +1,13 @@
+.lesson-1-btn-open, .lesson-2-btn-open, .lesson-3-btn-open, .lesson-4-btn-open {
+    margin-left: 5px; /* Optional, for spacing between buttons */
+    padding: 5px;
+    position: relative;
+    float: right;
+}
+.lesson-1-btn-close, .lesson-2-btn-close, .lesson-3-btn-close, .lesson-4-btn-close {
+    margin-left: 5px; /* Optional, for spacing between buttons */
+    padding: 5px;
+    position: relative;
+    float: right;
+    display:none;
+}
